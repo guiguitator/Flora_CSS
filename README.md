@@ -1,4 +1,4 @@
-# 🌺 Flora_CSS
+# 🌺 Flora CSS
 
 **💻 by :** [guiguitator](https://guiguitator.netlify.app/)
 
@@ -15,3 +15,14 @@ An another CSS Framework like Tailwind or Bulma...
 **Right :** right / rt
 
 ### Color :
+
+- Black & White
+- Gray
+- Cyan
+- Green
+- Yellow
+- Orange
+- Red
+- Pink
+- Purple
+[x] Blue

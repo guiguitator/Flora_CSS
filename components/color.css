@@ -13,6 +13,20 @@
 	--color_gray_80: #4a4a4a;
 	--color_gray_90: #363636;
 	--color_gray_100: #242424;
+		/*Cyan :*/
+	--color_cyan_10: #6effff;
+	--color_cyan_20: #47e4fe;
+	--color_cyan_30: #0dcaf0;
+	--color_cyan_40: #00b0d5;
+	--color_cyan_50: #0097bb;
+	--color_cyan_60: #007ea2;
+	--color_cyan_70: #006689;
+	--color_cyan_80: #004f71;
+	--color_cyan_90: #003a5a;
+	--color_cyan_100: #002543;
+		/*Green :*/
+		/*Yellow :*/
+		/*Orange*/
 		/*Red :*/
 	--color_red_10: #ff9868;
 	--color_red_20: #ff7c51;
@@ -24,9 +38,14 @@
 	--color_red_80: #9b0000;
 	--color_red_90: #820000;
 	--color_red_100: #690000;
+		/*Pink :*/
+		/*Purple :*/
+		/*Blue :*/
 }
 
-/*Color Base :*/
+
+
+/*Black & White :*/
 
 	/*color*/
 .color_white {color: var(--color_white);}
@@ -70,6 +89,8 @@
 
 .border_rt_white {border-right-color: var(--color_white)}
 .border_rt_black {border-right-color: var(--color_black);}
+
+
 
 /*Gray :*/
 
@@ -211,3 +232,7 @@
 .border_rt_gray_80 {border-right-color: var(--color_gray_80);}
 .border_rt_gray_90 {border-right-color: var(--color_gray_90);}
 .border_rt_gray_100 {border-right-color: var(--color_gray_100);}
+
+
+
+/*Red :*/
