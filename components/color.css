@@ -25,18 +25,38 @@
 	--color_cyan_90: #003a5a;
 	--color_cyan_100: #002543;
 		/*Green :*/
-	--color_cyan_10: #a0ff88;
-	--color_cyan_20: #83e66c;
-	--color_cyan_30: #69cd55;
-	--color_cyan_40: #4fb43e;
-	--color_cyan_50: #339c25;
-	--color_cyan_60: #088406;
-	--color_cyan_70: #006b00;
-	--color_cyan_80: #005300;
-	--color_cyan_90: #003c00;
-	--color_cyan_100: #002700;
+	--color_green_10: #a0ff88;
+	--color_green_20: #83e66c;
+	--color_green_30: #69cd55;
+	--color_green_40: #4fb43e;
+	--color_green_50: #339c25;
+	--color_green_60: #088406;
+	--color_green_70: #006b00;
+	--color_green_80: #005300;
+	--color_green_90: #003c00;
+	--color_green_100: #002700;
 		/*Yellow :*/
+	--color_yellow_10: #;
+	--color_yellow_20: #;
+	--color_yellow_30: #;
+	--color_yellow_40: #;
+	--color_yellow_50: #;
+	--color_yellow_60: #;
+	--color_yellow_70: #;
+	--color_yellow_80: #;
+	--color_yellow_90: #;
+	--color_yellow_100: #;
 		/*Orange*/
+	--color_orange_10: #ffcc68;
+	--color_orange_20: #ffad4a;
+	--color_orange_30: #fe8b26;
+	--color_orange_40: #ed710b;
+	--color_orange_50: #d45d00;
+	--color_orange_60: #bc4900;
+	--color_orange_70: #a33400;
+	--color_orange_80: #8c1e00;
+	--color_orange_90: #730600;
+	--color_orange_100: #560000;
 		/*Red :*/
 	--color_red_10: #ff9868;
 	--color_red_20: #ff7c51;
@@ -49,8 +69,38 @@
 	--color_red_90: #820000;
 	--color_red_100: #690000;
 		/*Pink :*/
+	--color_pink_10: #ffc0ff;
+	--color_pink_20: #ffa2e8;
+	--color_pink_30: #ff82ca;
+	--color_pink_40: #fa62ac;
+	--color_pink_50: #e94794;
+	--color_pink_60: #d32f82;
+	--color_pink_70: #be0a70;
+	--color_pink_80: #a00058;
+	--color_pink_90: #830040;
+	--color_pink_100: #66002b;
 		/*Purple :*/
+	--color_purple_10: #ffd9ff;
+	--color_purple_20: #e7aaff;
+	--color_purple_30: #cb8ffb;
+	--color_purple_40: #b178e5;
+	--color_purple_50: #9861cc;
+	--color_purple_60: #804bb3;
+	--color_purple_70: #68359b;
+	--color_purple_80: #511f84;
+	--color_purple_90: #39076d;
+	--color_purple_100: #2c1a4d;	
 		/*Blue :*/
+	--color_blue_10: #cdebff;
+	--color_blue_20: #b1d3ff;
+	--color_blue_30: #95bcff;
+	--color_blue_40: #77a4ff;
+	--color_blue_50: #548cff;
+	--color_blue_60: #1e74fe;
+	--color_blue_70: #035de8;
+	--color_blue_80: #0047cd;
+	--color_blue_90: #0032b0;
+	--color_blue_100: #001e92;
 }
 
 
