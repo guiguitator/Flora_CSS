@@ -16,13 +16,13 @@ An another CSS Framework like Tailwind or Bulma...
 
 ### Color :
 
-- Black & White
-- Gray
-- Cyan
-- Green
-- Yellow
-- Orange
-- Red
-- Pink
-- Purple
-- Blue
+- Black & White (2)
+- Gray (15)
+- Cyan (10)
+- Green (10)
+- Yellow (10)
+- Orange (10)
+- Red (10)
+- Pink (10)
+- Purple (10)
+- Blue (10)
