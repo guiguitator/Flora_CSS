@@ -19,7 +19,7 @@ An another CSS Framework like Tailwind or Bulma...
 - Black & White (2)
 - Gray (15)
 - Cyan (10)
-- Turquoise (0)
+- Turquoise (10)
 - Green (10)
 - Yellow (10)
 - Orange (10)
@@ -27,3 +27,5 @@ An another CSS Framework like Tailwind or Bulma...
 - Pink (10)
 - Purple (10)
 - Blue (10)
+
+There are actually 107 colors.
