@@ -25,4 +25,4 @@ An another CSS Framework like Tailwind or Bulma...
 - Red
 - Pink
 - Purple
-[x] Blue
+- Blue
