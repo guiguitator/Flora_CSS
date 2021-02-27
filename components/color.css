@@ -28,8 +28,14 @@
 
 /*Color Base :*/
 
+	/*color*/
 .color_white {color: var(--color_white);}
 .color_black {color: var(--color_black);}
+
+	/*background-color*/
+
+.bg_white {color: var(--color_white);}
+.bg_black {color: var(--color_black);}
 
 /*Gray :*/
 
