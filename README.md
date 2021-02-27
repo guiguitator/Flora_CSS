@@ -19,6 +19,7 @@ An another CSS Framework like Tailwind or Bulma...
 - Black & White (2)
 - Gray (15)
 - Cyan (10)
+- Turquoise (0)
 - Green (10)
 - Yellow (10)
 - Orange (10)
