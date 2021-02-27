@@ -8,7 +8,7 @@ An another CSS Framework like Tailwind or Bulma...
 
 **Top :** top / tp
 <br>
-**Bottom :** bottom / bot / bt
+**Bottom :** bottom / bot / bm
 <br>
 **Left :** left / lt
 <br>
