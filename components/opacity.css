@@ -21,3 +21,25 @@
 	--opacity_95: 95%;
 	--opacity_100: 100%;
 }
+
+.opacity_0 {opacity: var(--opacity_0)}
+.opacity_5 {opacity: var(--opacity_5)}
+.opacity_10 {opacity: var(--opacity_10)}
+.opacity_15 {opacity: var(--opacity_15)}
+.opacity_20 {opacity: var(--opacity_20)}
+.opacity_25 {opacity: var(--opacity_25)}
+.opacity_30 {opacity: var(--opacity_30)}
+.opacity_35 {opacity: var(--opacity_35)}
+.opacity_40 {opacity: var(--opacity_40)}
+.opacity_45 {opacity: var(--opacity_45)}
+.opacity_50 {opacity: var(--opacity_50)}
+.opacity_55 {opacity: var(--opacity_55)}
+.opacity_60 {opacity: var(--opacity_60)}
+.opacity_65 {opacity: var(--opacity_65)}
+.opacity_70 {opacity: var(--opacity_70)}
+.opacity_75 {opacity: var(--opacity_75)}
+.opacity_80 {opacity: var(--opacity_80)}
+.opacity_85 {opacity: var(--opacity_85)}
+.opacity_90 {opacity: var(--opacity_90)}
+.opacity_95 {opacity: var(--opacity_95)}
+.opacity_100 {opacity: var(--opacity_100)}
