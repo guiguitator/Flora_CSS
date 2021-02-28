@@ -57,6 +57,8 @@
 
 
 
+
+
 /*border-style*/
 
 .border_solid {border-style: solid;}
@@ -64,6 +66,8 @@
 .border_dotted {border-style: dotted;}
 .border_double {border-style: double;}
 .border_none {border-style: none;}
+
+
 
 
 

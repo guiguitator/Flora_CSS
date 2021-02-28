@@ -29,3 +29,7 @@ An another CSS Framework like Tailwind or Bulma...
 - Blue (10)
 
 There are actually 107 colors.
+
+### Border :
+
+Actually you can change the width, the color, the style and the radius of all sides border. You can also change the width of individual sides (but not the color and the radius)...
