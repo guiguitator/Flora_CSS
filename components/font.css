@@ -1,0 +1,47 @@
+/*font-familly*/
+
+.font_serif {font-family: serif;}
+.font_sans {font-family: sans-serif;}
+.font_mono {font-family: monospace;}
+.font_cursive {font-family: cursive;}
+.font_fantasy {font-family: fantasy;}
+
+/*font-weight*/
+
+.font_thin {font-weight: 100;}
+.font_extralight {font-weight: 200;}
+.font_light {font-weight: 300;}
+.font_normal {font-weight: 400;}
+.font_medium {font-weight: 500;}
+.font_semibold {font-weight: 600;}
+.font_bold {font-weight: 700;}
+.font_extra_bold {font-weight: 800;}
+.font_heavy {font-weight: 900;}
+
+/*font-variant-numeric*/
+
+.numeric_normal {font-variant-numeric: normal;}
+.numeric_ordinal {font-variant-numeric: ordinal;}
+.numeric_slashed_zero {font-variant-numeric: slashed-zero;}
+.numeric_lining {font-variant-numeric: lining-nums;}
+.numeric_oldstyle {font-variant-numeric: oldstyle-nums;}
+.numeric_proportional {font-variant-numeric: proportional-nums;}
+.numeric_tabular {font-variant-numeric: tabular-nums;}
+.numeric_diagonal_fractions {font-variant-numeric: diagonal-fractions;}
+.numeric_stacked_fractions {font-variant-numeric: stacked-fractions;}
+
+.num_normal {font-variant-numeric: normal;}
+.num_ordinal {font-variant-numeric: ordinal;}
+.num_slashed_zero {font-variant-numeric: slashed-zero;}
+.num_lining {font-variant-numeric: lining-nums;}
+.num_oldstyle {font-variant-numeric: oldstyle-nums;}
+.num_proportional {font-variant-numeric: proportional-nums;}
+.num_tabular {font-variant-numeric: tabular-nums;}
+.num_diagonal_fractions {font-variant-numeric: diagonal-fractions;}
+.num_stacked_fractions {font-variant-numeric: stacked-fractions;}
+
+/*font-style*/
+
+.not_italic {font-style: normal;}
+.italic {font-style: italic;}
+

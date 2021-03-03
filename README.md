@@ -2,7 +2,11 @@
 
 **💻 by :** [guiguitator](https://guiguitator.netlify.app/)
 
-An another CSS Framework like Tailwind or Bulma...
+Another CSS framework like Tailwind or Bulma but with some new features :
+
+- This framework uses 🐍 **snake case** instead of the kebab case usually used by other frameworks.
+- Harmonious and complete 🎨 **color palette**.
+- Easy to use and Quick to learn with the full 📚 **documentation**.
 
 ### Position :
 
