@@ -4,8 +4,6 @@
 .cursor_none {cursor: none;}
 
 	/*Links & States*/
-/*/// context menu ///*/
-.cursor_context_menu {cursor: context-menu;} .cursor_menu {cursor: context-menu;}
 .cursor_help {cursor: help;}
 .cursor_pointer {cursor: pointer;}
 .cursor_progress {cursor: progress;}

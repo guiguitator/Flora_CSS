@@ -45,3 +45,8 @@
 .not_italic {font-style: normal;}
 .italic {font-style: italic;}
 
+/*text-decoration*/
+
+.line_through {text-decoration: line-through;}
+.underline {text-decoration: underline;}
+.no_underline {text-decoration: none;}
