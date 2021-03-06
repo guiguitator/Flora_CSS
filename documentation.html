@@ -105,7 +105,7 @@
 			<hr>
 		<span class="color_gray_50">by <a href="#" target="_BLANK" class="color_gray_90 no_underline">guiguitator</a></span>
 	</aside>
-	<div id="core" class="p_l_10 p_r_10">
+	<div id="core" class="p_l_10 p_r_10 p_b_10">
 		<h1>🏠 Home</h1>
 		<hr>
 			<h2>Information</h2>
@@ -127,7 +127,7 @@
 				<br>
 			When I discovered <i>Tailwind</i> I found the framework extremely useful however, being a fan of the snake_case, I couldn't adapt to the kebab-case. So I decided to create my own framework with custom classes and components.
 				<br>
-			<p class="opacity_50">⚠️ We do not want to steal the content of Tailwind, which is why <b class="color_pink_60">Flora CSS</b> does not have any original class belonging to Tailwind. For example, we don't have any class like : <span class="bg_gray_10 radius_2">ring</span> or <span class="bg_gray_10 radius_2">divide</span>.</p>
+			<p class="opacity_50">⚠️ We don't want to steal the content of Tailwind, which is why <b class="color_pink_60">Flora CSS</b> does not have any original class belonging to Tailwind. For example, we don't have any class like <span class="bg_gray_10 radius_2">ring</span> or <span class="bg_gray_10 radius_2">divide</span>.</p>
 
 			<h2>Contact</h2>
 			🔮 <b>Discord :</b> <a href="#" class="color_blue_60 font_semibold no_underline">Join Us !</a>
@@ -136,6 +136,42 @@
 				<br>
 			😸 <b>Github :</b> <a href="#" class="color_blue_60 font_semibold no_underline">Leave a Star !</a>
 
+
+
+		<h1 class="p_t_10">🚩 Getting Started</h1>
+		<hr>
+			<h2>Installation</h2>
+		Download the <i>flora.min.css</i> file and include it in your HTML file :
+			<br>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">link</span> <span class="color_green_40">rel</span>=<span class="color_yellow_70">"stylesheet"</span> <span class="color_green_40">type</span>=<span class="color_yellow_70">"text/css"</span> <span class="color_green_40">href</span>=<span class="color_yellow_70 bg_gray_100 radius_2px">"flora.min.css"</span>>
+		</code>
+
+		<h2>Modules</h2>
+		<b class="color_pink_60">Flora CSS</b> is an extremely modular framework, you can select only the modules you are going to use :
+			<br>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">head</span>>
+					<br>
+				<span class="p_l_20"><<span class="color_red_40">link</span> <span class="color_green_40">rel</span>=<span class="color_yellow_70">"stylesheet"</span> <span class="color_green_40">type</span>=<span class="color_yellow_70">"text/css"</span> <span class="color_green_40">href</span>=<span class="color_yellow_70 bg_gray_100 radius_2px">"flora.color.css"</span>></span>
+					<br>
+				<span class="p_l_20"><<span class="color_red_40">link</span> <span class="color_green_40">rel</span>=<span class="color_yellow_70">"stylesheet"</span> <span class="color_green_40">type</span>=<span class="color_yellow_70">"text/css"</span> <span class="color_green_40">href</span>=<span class="color_yellow_70 bg_gray_100 radius_2px">"flora.opacity.css"</span>></span>
+					<br>
+				<span class="p_l_20"><<span class="color_red_40">link</span> <span class="color_green_40">rel</span>=<span class="color_yellow_70">"stylesheet"</span> <span class="color_green_40">type</span>=<span class="color_yellow_70">"text/css"</span> <span class="color_green_40">href</span>=<span class="color_yellow_70 bg_gray_100 radius_2px">"flora.background.css"</span>></span>
+					<br>
+			<&#x2F;<span class="color_red_40">head</span>>
+		</code>
+		<p class="font_semibold">It is strongly recommended to include the <b>flora.color.css</b> module in your projects.</p>
+
+		<h2>Optimizing</h2>
+		The first way to optimize your work is to select only the <span class="font_semibold">modules</span> that you need.
+			<br>
+		We also recommend that you use <a href="https://purgecss.com/" target="_BLANK" class="color_blue_40 font_semibold no_underline">PurgeCSS</a> to remove classes that you are not using.
+
+
+
+		<h1 class="p_t_10">🌌 Background</h1>
+		<hr>
 	</div>
 	<style type="text/css">
 		body {
@@ -147,6 +183,7 @@
 			bottom: 0; right: 0;
 			left: 280px;
 			background-color: #f1f1f1;
+			overflow: auto;
 		}
 
 		#aside {
@@ -166,6 +203,18 @@
 		}
 		.p_l_10 {padding-left: 10px}
 		.p_r_10 {padding-right: 10px}
+		.p_t_10 {padding-top: 10px;}
+		.p_b_10 {padding-bottom: 10px;}
+		.p_l_3 {padding-left: 3px;}
+		.p_r_3 {padding-right: 3px;}
+		.p_3 {padding: 3px;}
+		.block {display: block}
+		.w_max_content {width: max-content;}
+		.m_5 {margin: 5px;}
+		.p_l_20 {padding-left: 20px}
+		code {	
+			font-family: courier, monospace;
+		}
 	</style>
 </body>
 </html>
