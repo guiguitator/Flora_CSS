@@ -306,7 +306,127 @@
 			<div class="bg_green_30 inline_block p_45 font_semibold">.bg_green_30</div>
 
 		<h2 id="BackgroundPosition">Background Position</h2>
-		<p class="color_gray_100 font_semibold"></p>
+
+		<h2 id="BackgroundRepeat">Background Repeat</h2>
+		<p class="color_gray_100 font_semibold">This property defines how images used in the background are repeated.</p>
+			<table>
+				<thead class="color_gray_110">
+					<tr>
+						<th>Class name</th>
+						<th>Properties</th>
+					</tr>
+				</thead>
+				<tbody class="color_purple_70 font_semibold">
+					<tr>
+						<td>bg_repeat</td>
+						<td class="color_gray_50 font_mono">background-repeat: repeat;</td>
+					</tr>
+					<tr>
+						<td>bg_no_repeat</td>
+						<td class="color_gray_50 font_mono">background-repeat: no-repeat;</td>
+					</tr>
+					<tr>
+						<td>bg_repeat_x</td>
+						<td class="color_gray_50 font_mono">background-repeat: repeat-x;</td>
+					</tr>
+					<tr>
+						<td>bg_repeat_y</td>
+						<td class="color_gray_50 font_mono">background-repeat: repeat-y;</td>
+					</tr>
+					<tr>
+						<td>bg_repeat_round</td>
+						<td class="color_gray_50 font_mono">background-repeat: round;</td>
+					</tr>
+					<tr>
+						<td>bg_repeat_space</td>
+						<td class="color_gray_50 font_mono">background-repeat: space;</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3>Repeat</h3>
+			<p class="color_gray_100 font_semibold">The image is repeated as many times as necessary to cover the area dedicated to the background. The last image will be cropped if necessary.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_repeat</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_repeat w_50% h_50% inline_block radius_3 bg_blue_20"></div>
+			<h3>No Repeat</h3>
+			<p class="color_gray_100 font_semibold">There is no repeat of the image.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_no_repeat</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_no_repeat bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Repeat X</h3>
+			<p class="color_gray_100 font_semibold">The image is repeated only on the X axis.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_repeat_x</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_repeat_x bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Repeat Y</h3>
+			<p class="color_gray_100 font_semibold">The image is repeated only on the Y axis.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_repeat_y</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_repeat_y bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Round</h3>
+			<p class="color_gray_100 font_semibold">The image is repeated as much as possible and is stretched as necessary so that there is no cropping or space remaining. As soon as there is room to add an image, the others are compressed to make room for it.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_repeat_round</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_repeat_round bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Space</h3>
+			<p class="color_gray_100 font_semibold">The image is repeated as much as possible without cropping. The first and last image are next to the edges of the clip, and spaces are evenly distributed between the images.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_repeat_space</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_repeat_space bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+
+			<h2 id="BackgroundSize">Background Size</h2>
+			<p class="color_gray_100 font_semibold">This property defines the size of the background images.</p>
+				<table>
+				<thead class="color_gray_110">
+					<tr>
+						<th>Class name</th>
+						<th>Properties</th>
+					</tr>
+				</thead>
+				<tbody class="color_purple_70 font_semibold">
+					<tr>
+						<td>bg_auto</td>
+						<td class="color_gray_50 font_mono">background-size: auto;</td>
+					</tr>
+					<tr>
+						<td>bg_contain</td>
+						<td class="color_gray_50 font_mono">background-size: contain;</td>
+					</tr>
+					<tr>
+						<td>bg_cover</td>
+						<td class="color_gray_50 font_mono">background-size: cover;</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3>Auto</h3>
+			<p class="color_gray_100 font_semibold">Resize the background image so that its proportions are maintained.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_auto</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://avatarfiles.alphacoders.com/893/thumb-89303.gif)" class="bg_auto bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Contain</h3>
+			<p class="color_gray_100 font_semibold">Resize the image so that it is as large as possible and the image maintains its proportions.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_contain</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://avatarfiles.alphacoders.com/893/thumb-89303.gif)" class="bg_contain bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Cover</h3>
+			<p class="color_gray_100 font_semibold">The image is resized to be as large as possible and to maintain its proportions.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_cover</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://avatarfiles.alphacoders.com/893/thumb-89303.gif)" class="bg_cover bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+
+
+
+
+
 
 
 
@@ -354,7 +474,6 @@
 		th {
 			width: 50%;
 		}
-		td.font_mono {font-family: Hack, monospace;}
 		tr:nth-child(even) {
 			background: #e6e6e6;
 		}
@@ -364,6 +483,7 @@
 		}
 		.gradient_t_r {background-image: linear-gradient(to top right, #7af0d2, #cee69e);}
 		#test_gradient_text {-webkit-text-fill-color: transparent;}
+		.w_50\% {width: 50%;} .w_50\% {height: 50%;}
 	</style>
 </body>
 </html>
