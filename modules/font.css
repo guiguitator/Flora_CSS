@@ -1,10 +1,10 @@
 /*font-familly*/
 
-.font_serif {font-family: serif;}
-.font_sans {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";}
-.font_mono {font-family: monospace;}
-.font_cursive {font-family: cursive;}
-.font_fantasy {font-family: fantasy;}
+.font_serif {font-family: ui-serif, Lucida Bright, Georgia, Times, serif;}
+.font_sans {font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";}
+.font_mono {font-family: ui-monospace, Monaco, Consolas, Hack, monospace;}
+.font_cursive {font-family: Lucida Calligraphy, Lucida Handwriting, Apple Chancery, cursive;}
+.font_fantasy {font-family: Harrington, fantasy;}
 
 /*font-weight*/
 
@@ -15,20 +15,10 @@
 .font_medium {font-weight: 500;}
 .font_semibold {font-weight: 600;}
 .font_bold {font-weight: 700;}
-.font_extra_bold {font-weight: 800;}
+.font_extrabold {font-weight: 800;}
 .font_heavy {font-weight: 900;}
 
 /*font-variant-numeric*/
-
-.numeric_normal {font-variant-numeric: normal;}
-.numeric_ordinal {font-variant-numeric: ordinal;}
-.numeric_slashed_zero {font-variant-numeric: slashed-zero;}
-.numeric_lining {font-variant-numeric: lining-nums;}
-.numeric_oldstyle {font-variant-numeric: oldstyle-nums;}
-.numeric_proportional {font-variant-numeric: proportional-nums;}
-.numeric_tabular {font-variant-numeric: tabular-nums;}
-.numeric_diagonal_fractions {font-variant-numeric: diagonal-fractions;}
-.numeric_stacked_fractions {font-variant-numeric: stacked-fractions;}
 
 .num_normal {font-variant-numeric: normal;}
 .num_ordinal {font-variant-numeric: ordinal;}
@@ -47,6 +37,6 @@
 
 /*text-decoration*/
 
-.line_through {text-decoration: line-through;}
+.line_through {text-decoration: line-through;} .strike {text-decoration: line-through;}
 .underline {text-decoration: underline;}
 .no_underline {text-decoration: none;}
