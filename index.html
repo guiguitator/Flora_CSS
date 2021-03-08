@@ -6,33 +6,36 @@
 		<!-- Framwork -->
 	<link rel="stylesheet" type="text/css" href="flora.css">
 		<!-- Components -->
-		<link rel="stylesheet" type="text/css" href="modules/color.css">
+		<link rel="stylesheet" type="text/css" href="modules/background.css">
 		<link rel="stylesheet" type="text/css" href="modules/border.css">
-		<link rel="stylesheet" type="text/css" href="modules/opacity.css">
-		<link rel="stylesheet" type="text/css" href="modules/font.css">
+		<link rel="stylesheet" type="text/css" href="modules/color.css">
 		<link rel="stylesheet" type="text/css" href="modules/cursor.css">
+		<link rel="stylesheet" type="text/css" href="modules/font.css">
+		<link rel="stylesheet" type="text/css" href="modules/opacity.css">
+		<link rel="stylesheet" type="text/css" href="modules/spacing.css">
+
 </head>
 <body>
 	<aside id="title">
-		<h1 class="font_extra_bold">🌺 Flora.CSS</h1>
+		<h1 class="font_extra_bold"><a href="index.html" class="no_underline color_black">🌺 Flora.CSS</a></h1>
 	</aside>
 	<aside id="aside" class="bg_white">
 		<ul>
-			<li><span class="no_underline color_gray_130 font_bold">🏠 Home</span></li>
+			<li><a href="#Home" class="no_underline color_gray_130 font_bold">🏠 Home</a></li>
 				<ul>
-					<li><a href="#" class="no_underline color_gray_120 font_normal">Information</a></li>
-					<li><a href="#" class="no_underline color_gray_120 font_normal">Contact</a></li>
+					<li><a href="#Information" class="no_underline color_gray_120 font_normal">Information</a></li>
+					<li><a href="#Contact" class="no_underline color_gray_120 font_normal">Contact</a></li>
 				</ul>
-	<br>	<li><span class="no_underline color_gray_130 font_bold">🚩 Getting Started</span></li>
+	<br>	<li><a href="#GettingStarted" class="no_underline color_gray_130 font_bold">🚩 Getting Started</a></li>
 				<ul>
-					<li><a href="#" class="no_underline color_gray_120 font_normal">Installation</a></li>
-					<li><a href="#" class="no_underline color_gray_120 font_normal">Modules</a></li>
-					<li><a href="#" class="no_underline color_gray_120 font_normal">Optimizing</a></li>
+					<li><a href="#Installation" class="no_underline color_gray_120 font_normal">Installation</a></li>
+					<li><a href="#Modules" class="no_underline color_gray_120 font_normal">Modules</a></li>
+					<li><a href="#Optimizing" class="no_underline color_gray_120 font_normal">Optimizing</a></li>
 				</ul>
-	<br>	<li><span class="no_underline color_gray_130 font_bold">🌌 Background</span></li>
+	<br>	<li><a href="#Background" class="no_underline color_gray_130 font_bold">🌌 Background</a></li>
 				<ul>
-					<li><a href="#" class="no_underline color_gray_120 font_normal">Background Attachment</a></li>
-					<li><a href="#" class="no_underline color_gray_120 font_normal">Background Clip</a></li>
+					<li><a href="#BackgroundAttachment" class="no_underline color_gray_120 font_normal">Background Attachment</a></li>
+					<li><a href="#BackgroundClip" class="no_underline color_gray_120 font_normal">Background Clip</a></li>
 					<li><a href="#" class="no_underline color_gray_120 font_normal">Background Color</a></li>
 					<li><a href="#" class="no_underline color_gray_120 font_normal">Background Position</a></li>
 					<li><a href="#" class="no_underline color_gray_120 font_normal">Background Repeat</a></li>
@@ -106,9 +109,9 @@
 		<span class="color_gray_50">by <a href="#" target="_BLANK" class="color_gray_90 no_underline">guiguitator</a></span>
 	</aside>
 	<div id="core" class="p_l_10 p_r_10 p_b_10">
-		<h1>🏠 Home</h1>
+		<h1 id="Home">🏠 Home</h1>
 		<hr>
-			<h2>Information</h2>
+			<h2 id="Information">Information</h2>
 			Welcome to the <b class="color_pink_60">Flora CSS</b> documentation, you will find everything there is useful for getting started and learning the framework.
 				<br>
 				<br>
@@ -129,7 +132,7 @@
 				<br>
 			<p class="opacity_50">⚠️ We don't want to steal the content of Tailwind, which is why <b class="color_pink_60">Flora CSS</b> does not have any original class belonging to Tailwind. For example, we don't have any class like <span class="bg_gray_10 radius_2">ring</span> or <span class="bg_gray_10 radius_2">divide</span>.</p>
 
-			<h2>Contact</h2>
+			<h2 id="Contact">Contact</h2>
 			🔮 <b>Discord :</b> <a href="#" class="color_blue_60 font_semibold no_underline">Join Us !</a>
 				<br>
 			🐥 <b>Twitter :</b> <a href="#" class="color_blue_60 font_semibold no_underline">Follow Us !</a>
@@ -138,16 +141,16 @@
 
 
 
-		<h1 class="p_t_10">🚩 Getting Started</h1>
+		<h1 id="GettingStarted" class="p_t_10">🚩 Getting Started</h1>
 		<hr>
-			<h2>Installation</h2>
+			<h2 id="Installation">Installation</h2>
 		Download the <i>flora.min.css</i> file and include it in your HTML file :
 			<br>
 		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
 			<<span class="color_red_40">link</span> <span class="color_green_40">rel</span>=<span class="color_yellow_70">"stylesheet"</span> <span class="color_green_40">type</span>=<span class="color_yellow_70">"text/css"</span> <span class="color_green_40">href</span>=<span class="color_yellow_70 bg_gray_100 radius_2px">"flora.min.css"</span>>
 		</code>
 
-		<h2>Modules</h2>
+		<h2 id="Modules">Modules</h2>
 		<b class="color_pink_60">Flora CSS</b> is an extremely modular framework, you can select only the modules you are going to use :
 			<br>
 		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
@@ -163,16 +166,17 @@
 		</code>
 		<p class="font_semibold">It is strongly recommended to include the <b>flora.color.css</b> module in your projects.</p>
 
-		<h2>Optimizing</h2>
+		<h2 id="Optimizing">Optimizing</h2>
 		The first way to optimize your work is to select only the <span class="font_semibold">modules</span> that you need.
 			<br>
 		We also recommend that you use <a href="https://purgecss.com/" target="_BLANK" class="color_blue_40 font_semibold no_underline">PurgeCSS</a> to remove classes that you are not using.
 
 
 
-		<h1 class="p_t_10">🌌 Background</h1>
+		<h1 id="Background" class="p_t_10">🌌 Background</h1>
 		<hr>
-		<h2>Background Attachment</h2>
+		<h2 id="BackgroundAttachment">Background Attachment</h2>
+		<p class="color_gray_100 font_semibold">This property defines where the position of the background image is fixed.</p>
 			<table>
 				<thead class="color_gray_110">
 					<tr>
@@ -195,7 +199,79 @@
 					</tr>
 				</tbody>
 			</table>
+		<h3>Fixed</h3>
+		<p class="color_gray_100 font_semibold">Use <span class="color_purple_70">bg_fixed</span> to fix the background image relative to the viewport.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2px">bg_fixed</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>);<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+		</code>
+		<h3>Local</h3>
+		<p class="color_gray_100 font_semibold">Use <span class="color_purple_70">bg_local</span> so that the background moves with the content of the associated element. So if the element is scrolling, the background will scroll with.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2px">bg_local</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>);<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+		</code>
+		<h3>Scroll</h3>
+		<p class="color_gray_100 font_semibold">Use <span class="color_purple_70">bg_scroll</span> so that the background does not scroll with the content of the element.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2px">bg_scroll</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>);<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+		</code>
+
+		<h2 id="BackgroundClip">Background Clip</h2>
+		<p class="color_gray_100 font_semibold">This property defines how the background of an element extends below the border box, fill box, or content box.</p>
+			<table>
+				<thead class="color_gray_110">
+					<tr>
+						<th>Class name</th>
+						<th>Properties</th>
+					</tr>
+				</thead>
+				<tbody class="color_purple_70 font_semibold">
+					<tr>
+						<td>bg_clip_border</td>
+						<td class="color_gray_50 font_mono">background-clip: border-box;</td>
+					</tr>
+					<tr>
+						<td>bg_clip_content</td>
+						<td class="color_gray_50 font_mono">background-clip: content-box;</td>
+					</tr>
+					<tr>
+						<td>bg_clip_padding</td>
+						<td class="color_gray_50 font_mono">background-clip: padding-box;</td>
+					</tr>
+					<tr>
+						<td>bg_clip_text</td>
+						<td class="color_gray_50 font_mono">background-clip: text;</td>
+					</tr>
+				</tbody>
+			</table>
+		<h3>Border Box</h3>
+		<p class="color_gray_100 font_semibold">The background extends to the outer edge of the border.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2p">bg_clip_border</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
+		</code>
+			<div class="bg_clip_border color_white p_20 font_semibold border_dashed border_purple_70 border_10 bg_blue_30 inline_block">.bg_clip_border</div>
+		<h3>Content Box</h3>
+		<p class="color_gray_100 font_semibold">The background is limited to the content box.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2p">bg_clip_content</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
+		</code>
+			<div class="bg_clip_content color_white p_20 font_semibold border_dashed border_purple_70 border_10 bg_blue_30 inline_block">.bg_clip_content</div>
+		<h3>Padding Box</h3>
+		<p class="color_gray_100 font_semibold">No background is drawn in the border box. The background extends to the edge of the fill box.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2p">bg_clip_padding</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
+		</code>
+			<div class="bg_clip_padding color_white p_20 font_semibold border_dashed border_purple_70 border_10 bg_blue_30 inline_block">.bg_clip_padding</div>
+		<h3>Text</h3>
+		<p class="color_gray_100 font_semibold">The background is limited to the foreground text.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					
+		</code>
 	</div>
+
+
+
+
+
 	<style type="text/css">
 		body {
 			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
@@ -207,6 +283,7 @@
 			left: 280px;
 			background-color: #f1f1f1;
 			overflow: auto;
+			scroll-behavior: smooth;
 		}
 
 		#aside {
@@ -224,18 +301,10 @@
 			height: 70px;
 			z-index: 10;
 		}
-		.p_l_10 {padding-left: 10px}
-		.p_r_10 {padding-right: 10px}
-		.p_t_10 {padding-top: 10px;}
-		.p_b_10 {padding-bottom: 10px;}
-		.p_l_3 {padding-left: 3px;}
-		.p_r_3 {padding-right: 3px;}
-		.p_3 {padding: 3px;}
+		.inline_block {display: inline-block;}
 		.block {display: block}
 		.w_max_content {width: max-content;}
 		.m_5 {margin: 5px;}
-		.p_l_20 {padding-left: 20px}
-		.p_0 {padding: 0;}
 		code {	
 			font-family: courier, monospace;
 		}
@@ -243,6 +312,12 @@
 			width: 50%;
 		}
 		td.font_mono {font-family: courier, monospace;}
+		tr:nth-child(even) {
+			background: #e6e6e6;
+		}
+		thead {
+			background: #e1e1e1;
+		}
 	</style>
 </body>
 </html>

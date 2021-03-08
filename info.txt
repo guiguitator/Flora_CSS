@@ -9,6 +9,7 @@ bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content
 color_red_40
 color_green_40
 color_yellow_70
+color_cyan_60
 
 bg_gray_100 radius_2px
 
@@ -17,3 +18,15 @@ TAB = p_l_20
 	----- Mot : <b>Flora CSS</b> -----
 
 color_pink_60
+
+	----- TABLEAU -----
+
+THEAD === color_gray_110
+
+TBODY === color_purple_70 font_semibold
+
+TD (un sûr deux) === color_gray_50 font_mono
+
+	----- Propriété ----
+
+Texte = color_gray_100 font_semibold
