@@ -9,7 +9,7 @@
 .bg_clip_border {background-clip: border-box;}
 .bg_clip_content {background-clip: content-box;}
 .bg_clip_padding {background-clip: padding-box;}
-.bg_clip_text {background-clip: text;}
+.bg_clip_text {background-clip: text; -webkit-background-clip: text;}
 
 /*bg_position*/
 

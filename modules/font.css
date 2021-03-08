@@ -1,7 +1,7 @@
 /*font-familly*/
 
 .font_serif {font-family: serif;}
-.font_sans {font-family: sans-serif;}
+.font_sans {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";}
 .font_mono {font-family: monospace;}
 .font_cursive {font-family: cursive;}
 .font_fantasy {font-family: fantasy;}

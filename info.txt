@@ -11,7 +11,7 @@ color_green_40
 color_yellow_70
 color_cyan_60
 
-bg_gray_100 radius_2px
+bg_gray_100 radius_2
 
 TAB = p_l_20
 

@@ -17,7 +17,7 @@
 </head>
 <body>
 	<aside id="title">
-		<h1 class="font_extra_bold"><a href="index.html" class="no_underline color_black">🌺 Flora.CSS</a></h1>
+		<h1 class="font_extra_bold"><a href="index.html" class="no_underline color_black">🌺 Flora CSS</a></h1>
 	</aside>
 	<aside id="aside" class="bg_white">
 		<ul>
@@ -36,12 +36,12 @@
 				<ul>
 					<li><a href="#BackgroundAttachment" class="no_underline color_gray_120 font_normal">Background Attachment</a></li>
 					<li><a href="#BackgroundClip" class="no_underline color_gray_120 font_normal">Background Clip</a></li>
-					<li><a href="#" class="no_underline color_gray_120 font_normal">Background Color</a></li>
-					<li><a href="#" class="no_underline color_gray_120 font_normal">Background Position</a></li>
-					<li><a href="#" class="no_underline color_gray_120 font_normal">Background Repeat</a></li>
-					<li><a href="#" class="no_underline color_gray_120 font_normal">Background Size</a></li>
+					<li><a href="#BackgroundColor" class="no_underline color_gray_120 font_normal">Background Color</a></li>
+					<li><a href="#BackgroundPosition" class="no_underline color_gray_120 font_normal">Background Position</a></li>
+					<li><a href="#BackgroundRepeat" class="no_underline color_gray_120 font_normal">Background Repeat</a></li>
+					<li><a href="#BackgroundSize" class="no_underline color_gray_120 font_normal">Background Size</a></li>
 				</ul>
-	<br>	<li><span class="no_underline color_gray_130 font_bold">🧩 Border</span></li>
+	<br>	<li><a href="#Border" class="no_underline color_gray_130 font_bold">🧩 Border</a></li>
 				<ul>
 					<li><a href="#" class="no_underline color_gray_120 font_normal">Border Color</a></li>
 					<li><a href="#" class="no_underline color_gray_120 font_normal">Border Radius</a></li>
@@ -77,6 +77,10 @@
 					<li><a href="#" class="no_underline color_gray_120 font_normal">Resize</a></li>
 					<li><a href="#" class="no_underline color_gray_120 font_normal">User Select</a></li>
 				</ul>
+	<br>	<li><a href="#ColorPallet" class="no_underline color_gray_130 font_bold">🎨 Color Pallet</a></li>
+				<ul>
+					<li><a href="#Color" class="no_underline color_gray_120 font_normal">Color</a></li>
+				</ul>			
 	<br>	<li><span class="no_underline color_gray_130 font_bold">🚀 Spacing</span></li>
 				<ul>
 					<li><a href="#" class="no_underline color_gray_120 font_normal">Padding</a></li>
@@ -106,7 +110,7 @@
 				</ul>
 		</ul>
 			<hr>
-		<span class="color_gray_50">by <a href="#" target="_BLANK" class="color_gray_90 no_underline">guiguitator</a></span>
+		<span class="color_gray_50 p_10">by <a href="#" target="_BLANK" class="color_gray_90 no_underline">guiguitator</a></span>
 	</aside>
 	<div id="core" class="p_l_10 p_r_10 p_b_10">
 		<h1 id="Home">🏠 Home</h1>
@@ -117,10 +121,10 @@
 				<br>
 			<b>But what is Flora CSS?</b>
 				<br>
-			It's another framework like CSS framework like <i>Tailwind</i> or <i>Bulma</i> but with some new features :
+			It's another framework like CSS framework like <i>Tailwind</i> or <i>Tachyons</i> but with some new features :
 				<ul>
 					<li>This framework uses 🐍 <b>snake_case</b> instead of the kebab-case usually used by other frameworks.</li>
-					<li>Harmonious and complete 🎨 <b>color palette</b>.</li>
+					<li>Harmonious and complete 🎨 <b>color pallet</b>.</li>
 					<li>Easy to use and Quick to learn with the full 📚 <b>documentation</b>.</li>
 				</ul>
 			<b class="color_pink_60">Flora CSS</b> shares a lot of similarity with other frameworks like <i>Tailwind</i>, if you already master it : you will not be disoriented.
@@ -244,28 +248,69 @@
 				</tbody>
 			</table>
 		<h3>Border Box</h3>
-		<p class="color_gray_100 font_semibold">The background extends to the outer edge of the border.</p>
+		<p class="color_gray_100 font_semibold">Use <span class="color_purple_70">bg_clip_border</span> to have the background extend to the outer edge of the border.</p>
 		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
-			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2p">bg_clip_border</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_clip_border</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
 		</code>
 			<div class="bg_clip_border color_white p_20 font_semibold border_dashed border_purple_70 border_10 bg_blue_30 inline_block">.bg_clip_border</div>
 		<h3>Content Box</h3>
 		<p class="color_gray_100 font_semibold">The background is limited to the content box.</p>
 		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
-			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2p">bg_clip_content</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_clip_content</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
 		</code>
 			<div class="bg_clip_content color_white p_20 font_semibold border_dashed border_purple_70 border_10 bg_blue_30 inline_block">.bg_clip_content</div>
 		<h3>Padding Box</h3>
 		<p class="color_gray_100 font_semibold">No background is drawn in the border box. The background extends to the edge of the fill box.</p>
 		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
-			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2p">bg_clip_padding</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_clip_padding</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
 		</code>
 			<div class="bg_clip_padding color_white p_20 font_semibold border_dashed border_purple_70 border_10 bg_blue_30 inline_block">.bg_clip_padding</div>
 		<h3>Text</h3>
 		<p class="color_gray_100 font_semibold">The background is limited to the foreground text.</p>
 		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
-					
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"text_5xl font_bold"</span>>
+					<br>
+				<span class="p_l_20"><<span class="color_red_40">span</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_clip_text</span> gradient_t_r from_turquoise_50 to_green_20"</span>>Hello World !<&#x2F;<span class="color_red_40">span</span>></span>
+					<br>
+			<&#x2F;<span class="color_red_40">div</span>>
 		</code>
+			<div class="text_5xl font_bold">
+				<span id="test_gradient_text" class="bg_clip_text gradient_t_r from_turquoise_50 to_green_20">Hello World !</span>
+			</div>
+
+		<h2 id="BackgroundColor">Background Color</h2>
+		<p class="color_gray_100 font_semibold">This property allows you to define the color used for the background of an element.</p>
+		<p class="color_black p_10 border_blue_30 border_solid border_1 radius_5 font_semibold bg_blue_10 inline_block">To know the list of all the colors, go to the category : <a href="#ColorPallet" class="font_bold no_underline color_black">🎨 Color Pallet</a></p>
+		
+			<table>
+				<thead class="color_gray_110">
+					<tr>
+						<th>Class name</th>
+						<th>Properties</th>
+					</tr>
+				</thead>
+				<tbody class="color_purple_70 font_semibold">
+					<tr>
+						<td>bg_{color}</td>
+						<td class="color_gray_50 font_mono">background-color: {color};</td>
+					</tr>
+				</tbody>
+			</table>		
+		<p class="color_gray_100 font_semibold">Control the background color of an element using <span class="color_purple_70">bg_{color}</span></p>
+			<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+				<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_red_30</span>"</span>>...<&#x2F;<span class="color_red_40">div</span>>
+			</code>
+		<p class="font_bold">Some Example :</p>
+			<div class="bg_red_30 inline_block p_45 font_semibold">.bg_red_30</div>
+			<div class="bg_blue_30 inline_block p_45 font_semibold">.bg_blue_30</div>
+			<div class="bg_green_30 inline_block p_45 font_semibold">.bg_green_30</div>
+
+		<h2 id="BackgroundPosition">Background Position</h2>
+		
+
+
+
+
 	</div>
 
 
@@ -304,20 +349,23 @@
 		.inline_block {display: inline-block;}
 		.block {display: block}
 		.w_max_content {width: max-content;}
-		.m_5 {margin: 5px;}
 		code {	
-			font-family: courier, monospace;
+			font-family: Hack, monospace;
 		}
 		th {
 			width: 50%;
 		}
-		td.font_mono {font-family: courier, monospace;}
+		td.font_mono {font-family: Hack, monospace;}
 		tr:nth-child(even) {
 			background: #e6e6e6;
 		}
+		.h_15 {height: 25px;}
 		thead {
 			background: #e1e1e1;
 		}
+		.gradient_t_r {background-image: linear-gradient(to top right, #7af0d2, #cee69e);}
+		#test_gradient_text {-webkit-text-fill-color: transparent;}
+		.text_5xl {font-size: 72px;}
 	</style>
 </body>
 </html>
