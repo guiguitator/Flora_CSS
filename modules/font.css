@@ -6,6 +6,21 @@
 .font_cursive {font-family: Lucida Calligraphy, Lucida Handwriting, Apple Chancery, cursive;}
 .font_fantasy {font-family: Harrington, fantasy;}
 
+/*font-size*/
+
+.text_2xs {font-size: 0.50rem;}
+.text_xs {font-size: 0.75rem;}
+.text_s {font-size: 0.875rem;}
+.text_m {font-size: 1rem;}
+.text_l {font-size: 1.175rem;}
+.text_xl {font-size: 1.250rem;}
+.text_2xl {font-size: 1.5rem;}
+.text_3xl {font-size: 1.875rem;}
+.text_4xl {font-size: 2.2rem;}
+.text_5xl {font-size: 2.875rem;}
+.text_6xl {font-size: 3.8rem;}
+.text_7xl {font-size: 5rem;}
+
 /*font-weight*/
 
 .font_thin {font-weight: 100;}
