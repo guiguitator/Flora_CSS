@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flora CSS - Documentation</title>
+	<meta charset="utf-8">
+		<!-- Framwork -->
+	<link rel="stylesheet" type="text/css" href="flora.css">
+		<!-- Components -->
+		<link rel="stylesheet" type="text/css" href="modules/background.css">
+		<link rel="stylesheet" type="text/css" href="modules/border.css">
+		<link rel="stylesheet" type="text/css" href="modules/color.css">
+		<link rel="stylesheet" type="text/css" href="modules/cursor.css">
+		<link rel="stylesheet" type="text/css" href="modules/font.css">
+		<link rel="stylesheet" type="text/css" href="modules/opacity.css">
+		<link rel="stylesheet" type="text/css" href="modules/spacing.css">
+
+</head>
+<body>
+	<aside id="title">
+		<h1 class="font_extra_bold"><a href="index.html" class="no_underline color_black">🌺 Flora CSS</a></h1>
+	</aside>
+	<aside id="aside" class="bg_white">
+		<ul>
+			<li><a href="#Home" class="no_underline color_gray_130 font_bold">🏠 Home</a></li>
+				<ul>
+					<li><a href="#Information" class="no_underline color_gray_120 font_normal">Information</a></li>
+					<li><a href="#Contact" class="no_underline color_gray_120 font_normal">Contact</a></li>
+				</ul>
+	<br>	<li><a href="#GettingStarted" class="no_underline color_gray_130 font_bold">🚩 Getting Started</a></li>
+				<ul>
+					<li><a href="#Installation" class="no_underline color_gray_120 font_normal">Installation</a></li>
+					<li><a href="#Modules" class="no_underline color_gray_120 font_normal">Modules</a></li>
+					<li><a href="#Optimizing" class="no_underline color_gray_120 font_normal">Optimizing</a></li>
+				</ul>
+	<br>	<li><a href="#Background" class="no_underline color_gray_130 font_bold">🌌 Background</a></li>
+				<ul>
+					<li><a href="#BackgroundAttachment" class="no_underline color_gray_120 font_normal">Background Attachment</a></li>
+					<li><a href="#BackgroundClip" class="no_underline color_gray_120 font_normal">Background Clip</a></li>
+					<li><a href="#BackgroundColor" class="no_underline color_gray_120 font_normal">Background Color</a></li>
+					<li><a href="#BackgroundPosition" class="no_underline color_gray_120 font_normal">Background Position</a></li>
+					<li><a href="#BackgroundRepeat" class="no_underline color_gray_120 font_normal">Background Repeat</a></li>
+					<li><a href="#BackgroundSize" class="no_underline color_gray_120 font_normal">Background Size</a></li>
+				</ul>
+	<br>	<li><a href="#Border" class="no_underline color_gray_130 font_bold">🧩 Border</a></li>
+				<ul>
+					<li><a href="#BorderColor" class="no_underline color_gray_120 font_normal">Border Color</a></li>
+					<li><a href="#BorderRadius" class="no_underline color_gray_120 font_normal">Border Radius</a></li>
+					<li><a href="#BorderStyle" class="no_underline color_gray_120 font_normal">Border Style</a></li>
+					<li><a href="#BorderWidth" class="no_underline color_gray_120 font_normal">Border Width</a></li>
+				</ul>
+	<br>	<li><span class="no_underline color_gray_130 font_bold">📦 Disposition</span></li>
+				<ul>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Box Sizing</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Display</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Floats</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Clear</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Object Fit</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Object Position</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Overflow</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Overscroll Behavior</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Position</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Top / Bottom / Left / Right</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Visibility</a></li>					
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Z-Index</a></li>
+				</ul>
+	<br>	<li><span class="no_underline color_gray_130 font_bold">👻 Effect</span></li>
+				<ul>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Box Shadow</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Opacity</a></li>
+				</ul>
+	<br>	<li><span class="no_underline color_gray_130 font_bold">🧪 Interactivity</span></li>
+				<ul>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Appearance</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Cursor</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Outline</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Pointer Event</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Resize</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">User Select</a></li>
+				</ul>
+	<br>	<li><a href="#ColorPallet" class="no_underline color_gray_130 font_bold">🎨 Color Pallet</a></li>
+				<ul>
+					<li><a href="#Color" class="no_underline color_gray_120 font_normal">Color</a></li>
+				</ul>			
+	<br>	<li><span class="no_underline color_gray_130 font_bold">🚀 Spacing</span></li>
+				<ul>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Padding</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Margin</a></li>
+				</ul>				
+	<br>	<li><span class="no_underline color_gray_130 font_bold">📏 Sizing</span></li>
+				<ul>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Height</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Width</a></li>
+				</ul>
+	<br>	<li><span class="no_underline color_gray_130 font_bold">📝 Text & Font</span></li>
+				<ul>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Color</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Font Family</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Font Size</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Font Style</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Font Weight</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Font Variant Numeric</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Text Align</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Text Decoration</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Text Transform</a></li>
+				</ul>
+	<br>	<li><span class="no_underline color_gray_130 font_bold">👽 Transform</span></li>
+				<ul>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Transform Origin</a></li>
+					<li><a href="#" class="no_underline color_gray_120 font_normal">Rotate</a></li>
+				</ul>
+		</ul>
+			<hr>
+		<span class="color_gray_50 p_10">by <a href="#" target="_BLANK" class="color_gray_90 no_underline">guiguitator</a></span>
+	</aside>
+	<div id="core" class="p_l_10 p_r_10 p_b_10">
+		<h1 id="Home">🏠 Home</h1>
+		<hr>
+			<h2 id="Information">Information</h2>
+			Welcome to the <b class="color_pink_60">Flora CSS</b> documentation, you will find everything there is useful for getting started and learning the framework.
+				<br>
+				<br>
+			<b>But what is Flora CSS?</b>
+				<br>
+			It's another framework like CSS framework like <i>Tailwind</i> or <i>Tachyons</i> but with some new features :
+				<ul>
+					<li>This framework uses 🐍 <b>snake_case</b> instead of the kebab-case usually used by other frameworks.</li>
+					<li>Harmonious and complete 🎨 <b>color pallet</b>.</li>
+					<li>Easy to use and Quick to learn with the full 📚 <b>documentation</b>.</li>
+				</ul>
+			<b class="color_pink_60">Flora CSS</b> shares a lot of similarity with other frameworks like <i>Tailwind</i>, if you already master it : you will not be disoriented.
+				<br>
+				<br>
+			<b>Why did you create this framework if others already exist ?</b>
+				<br>
+			When I discovered <i>Tailwind</i> I found the framework extremely useful however, being a fan of the snake_case, I couldn't adapt to the kebab-case. So I decided to create my own framework with custom classes and components.
+				<br>
+			<p class="opacity_50">⚠️ We don't want to steal the content of Tailwind, which is why <b class="color_pink_60">Flora CSS</b> does not have any original class belonging to Tailwind. For example, we don't have any class like <span class="bg_gray_10 radius_2">ring</span> or <span class="bg_gray_10 radius_2">divide</span>.</p>
+
+			<h2 id="Contact">Contact</h2>
+			🔮 <b>Discord :</b> <a href="#" class="color_blue_60 font_semibold no_underline">Join Us !</a>
+				<br>
+			🐥 <b>Twitter :</b> <a href="#" class="color_blue_60 font_semibold no_underline">Follow Us !</a>
+				<br>
+			😸 <b>Github :</b> <a href="#" class="color_blue_60 font_semibold no_underline">Leave a Star !</a>
+
+
+
+		<h1 id="GettingStarted" class="p_t_10">🚩 Getting Started</h1>
+		<hr>
+			<h2 id="Installation">Installation</h2>
+		Download the <i>flora.min.css</i> file and include it in your HTML file :
+			<br>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">link</span> <span class="color_green_40">rel</span>=<span class="color_yellow_70">"stylesheet"</span> <span class="color_green_40">type</span>=<span class="color_yellow_70">"text/css"</span> <span class="color_green_40">href</span>=<span class="color_yellow_70 bg_gray_100 radius_2px">"flora.min.css"</span>>
+		</code>
+
+		<h2 id="Modules">Modules</h2>
+		<b class="color_pink_60">Flora CSS</b> is an extremely modular framework, you can select only the modules you are going to use :
+			<br>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">head</span>>
+					<br>
+				<span class="p_l_20"><<span class="color_red_40">link</span> <span class="color_green_40">rel</span>=<span class="color_yellow_70">"stylesheet"</span> <span class="color_green_40">type</span>=<span class="color_yellow_70">"text/css"</span> <span class="color_green_40">href</span>=<span class="color_yellow_70 bg_gray_100 radius_2px">"flora.color.css"</span>></span>
+					<br>
+				<span class="p_l_20"><<span class="color_red_40">link</span> <span class="color_green_40">rel</span>=<span class="color_yellow_70">"stylesheet"</span> <span class="color_green_40">type</span>=<span class="color_yellow_70">"text/css"</span> <span class="color_green_40">href</span>=<span class="color_yellow_70 bg_gray_100 radius_2px">"flora.opacity.css"</span>></span>
+					<br>
+				<span class="p_l_20"><<span class="color_red_40">link</span> <span class="color_green_40">rel</span>=<span class="color_yellow_70">"stylesheet"</span> <span class="color_green_40">type</span>=<span class="color_yellow_70">"text/css"</span> <span class="color_green_40">href</span>=<span class="color_yellow_70 bg_gray_100 radius_2px">"flora.background.css"</span>></span>
+					<br>
+			<&#x2F;<span class="color_red_40">head</span>>
+		</code>
+		<p class="font_semibold">It is strongly recommended to include the <b>flora.color.css</b> module in your projects.</p>
+
+		<h2 id="Optimizing">Optimizing</h2>
+		The first way to optimize your work is to select only the <span class="font_semibold">modules</span> that you need.
+			<br>
+		We also recommend that you use <a href="https://purgecss.com/" target="_BLANK" class="color_blue_40 font_semibold no_underline">PurgeCSS</a> to remove classes that you are not using.
+
+
+
+		<h1 id="Background" class="p_t_10">🌌 Background</h1>
+		<hr>
+		<h2 id="BackgroundAttachment">Background Attachment</h2>
+		<p class="color_gray_100 font_semibold">This property defines where the position of the background image is fixed.</p>
+			<table>
+				<thead class="color_gray_110">
+					<tr>
+						<th>Class name</th>
+						<th>Properties</th>
+					</tr>
+				</thead>
+				<tbody class="color_purple_70 font_semibold">
+					<tr>
+						<td>bg_fixed</td>
+						<td class="color_gray_50 font_mono">background-attachment: fixed;</td>
+					</tr>
+					<tr>
+						<td>bg_local</td>
+						<td class="color_gray_50 font_mono">background-attachment: local;</td>
+					</tr>
+					<tr>
+						<td>bg_scroll</td>
+						<td class="color_gray_50 font_mono">background-attachment: scroll;</td>
+					</tr>
+				</tbody>
+			</table>
+		<h3>Fixed</h3>
+		<p class="color_gray_100 font_semibold">Use <span class="color_purple_70">bg_fixed</span> to fix the background image relative to the viewport.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2px">bg_fixed</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>);<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+		</code>
+		<h3>Local</h3>
+		<p class="color_gray_100 font_semibold">Use <span class="color_purple_70">bg_local</span> so that the background moves with the content of the associated element. So if the element is scrolling, the background will scroll with.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2px">bg_local</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>);<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+		</code>
+		<h3>Scroll</h3>
+		<p class="color_gray_100 font_semibold">Use <span class="color_purple_70">bg_scroll</span> so that the background does not scroll with the content of the element.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2px">bg_scroll</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>);<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+		</code>
+
+		<h2 id="BackgroundClip">Background Clip</h2>
+		<p class="color_gray_100 font_semibold">This property defines how the background of an element extends below the border box, fill box, or content box.</p>
+			<table>
+				<thead class="color_gray_110">
+					<tr>
+						<th>Class name</th>
+						<th>Properties</th>
+					</tr>
+				</thead>
+				<tbody class="color_purple_70 font_semibold">
+					<tr>
+						<td>bg_clip_border</td>
+						<td class="color_gray_50 font_mono">background-clip: border-box;</td>
+					</tr>
+					<tr>
+						<td>bg_clip_content</td>
+						<td class="color_gray_50 font_mono">background-clip: content-box;</td>
+					</tr>
+					<tr>
+						<td>bg_clip_padding</td>
+						<td class="color_gray_50 font_mono">background-clip: padding-box;</td>
+					</tr>
+					<tr>
+						<td>bg_clip_text</td>
+						<td class="color_gray_50 font_mono">background-clip: text;</td>
+					</tr>
+				</tbody>
+			</table>
+		<h3>Border Box</h3>
+		<p class="color_gray_100 font_semibold">Use <span class="color_purple_70">bg_clip_border</span> to have the background extend to the outer edge of the border.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_clip_border</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
+		</code>
+			<div class="bg_clip_border color_white p_20 font_semibold border_dashed border_purple_70 border_10 bg_blue_30 inline_block">.bg_clip_border</div>
+		<h3>Content Box</h3>
+		<p class="color_gray_100 font_semibold">The background is limited to the content box.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_clip_content</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
+		</code>
+			<div class="bg_clip_content color_white p_20 font_semibold border_dashed border_purple_70 border_10 bg_blue_30 inline_block">.bg_clip_content</div>
+		<h3>Padding Box</h3>
+		<p class="color_gray_100 font_semibold">No background is drawn in the border box. The background extends to the edge of the fill box.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_clip_padding</span> border_dashed border_purple_70 border_10 bg_blue_30"</span>>👋 Hi !<&#x2F;<span class="color_red_40">div</span>>
+		</code>
+			<div class="bg_clip_padding color_white p_20 font_semibold border_dashed border_purple_70 border_10 bg_blue_30 inline_block">.bg_clip_padding</div>
+		<h3>Text</h3>
+		<p class="color_gray_100 font_semibold">The background is limited to the foreground text.</p>
+		<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+			<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"text_7xl font_bold"</span>>
+					<br>
+				<span class="p_l_20"><<span class="color_red_40">span</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_clip_text</span> gradient_t_r from_turquoise_50 to_green_20"</span>>Hello World !<&#x2F;<span class="color_red_40">span</span>></span>
+					<br>
+			<&#x2F;<span class="color_red_40">div</span>>
+		</code>
+			<div class="text_7xl font_bold">
+				<span id="test_gradient_text" class="bg_clip_text gradient_t_r from_turquoise_50 to_green_20">Hello World !</span>
+			</div>
+
+		<h2 id="BackgroundColor">Background Color</h2>
+		<p class="color_gray_100 font_semibold">This property allows you to define the color used for the background of an element.</p>
+		<p class="color_black p_10 border_blue_30 border_solid border_1 radius_5 font_semibold bg_blue_10 inline_block">To know the list of all the colors, go to the category : <a href="#ColorPallet" class="font_bold no_underline color_black">🎨 Color Pallet</a></p>
+			<table>
+				<thead class="color_gray_110">
+					<tr>
+						<th>Class name</th>
+						<th>Properties</th>
+					</tr>
+				</thead>
+				<tbody class="color_purple_70 font_semibold">
+					<tr>
+						<td>bg_{color}</td>
+						<td class="color_gray_50 font_mono">background-color: {color};</td>
+					</tr>
+				</tbody>
+			</table>		
+		<p class="color_gray_100 font_semibold">Control the background color of an element using <span class="color_purple_70">bg_{color}</span></p>
+			<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+				<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_red_30</span>"</span>>...<&#x2F;<span class="color_red_40">div</span>>
+			</code>
+		<p class="font_bold">Some Example :</p>
+			<div class="bg_red_30 inline_block p_45 font_semibold">.bg_red_30</div>
+			<div class="bg_blue_30 inline_block p_45 font_semibold">.bg_blue_30</div>
+			<div class="bg_green_30 inline_block p_45 font_semibold">.bg_green_30</div>
+
+		<h2 id="BackgroundPosition">Background Position</h2>
+		<p class="color_gray_100 font_semibold">This property is used to define the position of the background.</p>
+			<table>
+				<thead class="color_gray_110">
+					<tr>
+						<th>Class name</th>
+						<th>Properties</th>
+					</tr>
+				</thead>
+				<tbody class="color_purple_70 font_semibold">
+					<tr>
+						<td>bg_bottom</td>
+						<td class="color_gray_50 font_mono">background-position: bottom;</td>
+					</tr>
+					<tr>
+						<td>bg_center</td>
+						<td class="color_gray_50 font_mono">background-position: center;</td>
+					</tr>
+					<tr>
+						<td>bg_left</td>
+						<td class="color_gray_50 font_mono">background-position: left;</td>
+					</tr>
+					<tr>
+						<td>bg_left_bottom</td>
+						<td class="color_gray_50 font_mono">background-position: left bottom;</td>
+					</tr>
+					<tr>
+						<td>bg_right</td>
+						<td class="color_gray_50 font_mono">background-position: right;</td>
+					</tr>
+					<tr>
+						<td>bg_right_bottom</td>
+						<td class="color_gray_50 font_mono">background-position: right bottom;</td>
+					</tr>
+					<tr>
+						<td>bg_right_top</td>
+						<td class="color_gray_50 font_mono">background-position: right top;</td>
+					</tr>
+					<tr>
+						<td>bg_top</td>
+						<td class="color_gray_50 font_mono">background-position: top;</td>
+					</tr>
+				</tbody>
+			</table>
+
+		<h2 id="BackgroundRepeat">Background Repeat</h2>
+		<p class="color_gray_100 font_semibold">This property defines how images used in the background are repeated.</p>
+			<table>
+				<thead class="color_gray_110">
+					<tr>
+						<th>Class name</th>
+						<th>Properties</th>
+					</tr>
+				</thead>
+				<tbody class="color_purple_70 font_semibold">
+					<tr>
+						<td>bg_repeat</td>
+						<td class="color_gray_50 font_mono">background-repeat: repeat;</td>
+					</tr>
+					<tr>
+						<td>bg_no_repeat</td>
+						<td class="color_gray_50 font_mono">background-repeat: no-repeat;</td>
+					</tr>
+					<tr>
+						<td>bg_repeat_x</td>
+						<td class="color_gray_50 font_mono">background-repeat: repeat-x;</td>
+					</tr>
+					<tr>
+						<td>bg_repeat_y</td>
+						<td class="color_gray_50 font_mono">background-repeat: repeat-y;</td>
+					</tr>
+					<tr>
+						<td>bg_repeat_round</td>
+						<td class="color_gray_50 font_mono">background-repeat: round;</td>
+					</tr>
+					<tr>
+						<td>bg_repeat_space</td>
+						<td class="color_gray_50 font_mono">background-repeat: space;</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3>Repeat</h3>
+			<p class="color_gray_100 font_semibold">The image is repeated as many times as necessary to cover the area dedicated to the background. The last image will be cropped if necessary.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_repeat</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_repeat w_50% h_50% inline_block radius_3 bg_blue_20"></div>
+			<h3>No Repeat</h3>
+			<p class="color_gray_100 font_semibold">There is no repeat of the image.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_no_repeat</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_no_repeat bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Repeat X</h3>
+			<p class="color_gray_100 font_semibold">The image is repeated only on the X axis.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_repeat_x</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_repeat_x bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Repeat Y</h3>
+			<p class="color_gray_100 font_semibold">The image is repeated only on the Y axis.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_repeat_y</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_repeat_y bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Round</h3>
+			<p class="color_gray_100 font_semibold">The image is repeated as much as possible and is stretched as necessary so that there is no cropping or space remaining. As soon as there is room to add an image, the others are compressed to make room for it.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_repeat_round</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_repeat_round bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Space</h3>
+			<p class="color_gray_100 font_semibold">The image is repeated as much as possible without cropping. The first and last image are next to the edges of the clip, and spaces are evenly distributed between the images.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_repeat_space</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg)" class="bg_repeat_space bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+
+			<h2 id="BackgroundSize">Background Size</h2>
+			<p class="color_gray_100 font_semibold">This property defines the size of the background images.</p>
+				<table>
+				<thead class="color_gray_110">
+					<tr>
+						<th>Class name</th>
+						<th>Properties</th>
+					</tr>
+				</thead>
+				<tbody class="color_purple_70 font_semibold">
+					<tr>
+						<td>bg_auto</td>
+						<td class="color_gray_50 font_mono">background-size: auto;</td>
+					</tr>
+					<tr>
+						<td>bg_contain</td>
+						<td class="color_gray_50 font_mono">background-size: contain;</td>
+					</tr>
+					<tr>
+						<td>bg_cover</td>
+						<td class="color_gray_50 font_mono">background-size: cover;</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3>Auto</h3>
+			<p class="color_gray_100 font_semibold">Resize the background image so that its proportions are maintained.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_auto</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://avatarfiles.alphacoders.com/893/thumb-89303.gif)" class="bg_auto bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Contain</h3>
+			<p class="color_gray_100 font_semibold">Resize the image so that it is as large as possible and the image maintains its proportions.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_contain</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://avatarfiles.alphacoders.com/893/thumb-89303.gif)" class="bg_contain bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+			<h3>Cover</h3>
+			<p class="color_gray_100 font_semibold">The image is resized to be as large as possible and to maintain its proportions.</p>
+				<code class="font_mono bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">bg_cover</span>"</span> <span class="color_green_40">style</span>=<span class="color_yellow_70">"</span><span class="color_cyan_60">background-image</span>: <span class="color_cyan_60">url</span>(<span class="color_yellow_70">...</span>)<span class="color_yellow_70">"</span>><&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div style="background-image: url(https://avatarfiles.alphacoders.com/893/thumb-89303.gif)" class="bg_cover bg_blue_20 w_50% h_50% inline_block radius_3"></div>
+
+
+
+			<h1 id="Border" class="p_t_10">🧩 Border</h1>
+				<hr>
+			<h2 id="BorderColor">Border Color</h2>
+			<p class="color_gray_100 font_semibold">This property allows you to define the color used for the border of an element.</p>
+			<p class="color_black p_10 border_blue_30 border_solid border_1 radius_5 font_semibold bg_blue_10 inline_block">To know the list of all the colors, go to the category : <a href="#ColorPallet" class="font_bold no_underline color_black">🎨 Color Pallet</a></p>
+				<table>
+					<thead class="color_gray_110">
+						<tr>
+							<th>Class name</th>
+							<th>Properties</th>
+						</tr>
+					</thead>
+					<tbody class="color_purple_70 font_semibold">
+						<tr>
+							<td>bg_{color}</td>
+							<td class="color_gray_50 font_mono">border-color: {color};</td>
+						</tr>
+						<tr>
+							<td>bg_{position}_{color}</td>
+							<td class="color_gray_50 font_mono">border-{position}-color: {color};</td>
+						</tr>
+					</tbody>
+				</table>	
+			<h3>All Border</h3>	
+			<p class="color_gray_100 font_semibold">Control the border color of an element using <span class="color_purple_70">border_{color}</span></p>
+				<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">border_red_30</span>"</span>>...<&#x2F;<span class="color_red_40">div</span>>
+				</code>
+			<p class="font_bold">Some Example :</p>
+				<div class="border_red_30 border_solid border_5 radius_2 Border bg_transparent inline_block p_45 font_semibold">.border_red_30</div>
+				<div class="border_blue_30 border_solid border_5 radius_2 bg_transparent inline_block p_45 font_semibold">.border_blue_30</div>
+				<div class="border_green_30 border_solid border_5 radius_2 bg_transparent inline_block p_45 font_semibold">.border_green_30</div>
+			<h3>Specific Border</h3>
+			<p class="color_gray_100 font_semibold">You can also change the color of a particular border in this way : <span class="color_purple_70">border_{position}_{color}</span></p>
+				<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">border_top_red_30</span> <span class="bg_gray_100 radius_2">border_left_blue_30</span> <span class="bg_gray_100 radius_2">border_right_green_30</span> <span class="bg_gray_100 radius_2">border_bottom_purple_30</span>"</span>>...<&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div class="border_top_red_30 border_left_blue_30 border_right_green_30 border_bottom_purple_30 border_solid border_10 radius_2 Border bg_transparent inline_block p_45 font_semibold">
+					.border_top_red_30
+						<br>
+					.border_left_blue_30
+						<br>
+					.border_right_green_30
+						<br>
+					.border_bottom_purple_30
+				</div>
+
+			<h2 id="BorderRadius">Border Radius</h2>
+			<p class="color_gray_100 font_semibold">This property allows you to define rounded corners for the border of an element.</p>
+				<table>
+					<thead class="color_gray_110">
+						<tr>
+							<th>Class name</th>
+							<th>Properties</th>
+						</tr>
+					</thead>
+					<tbody class="color_purple_70 font_semibold">
+						<tr>
+							<td>radius_2xs</td>
+							<td class="color_gray_50 font_mono">border-radius: 0.1rem;</td>
+						</tr>
+						<tr>
+							<td>radius_xs</td>
+							<td class="color_gray_50 font_mono">>border-radius: 0.15rem;</td>
+						</tr>
+						<tr>
+							<td>radius_s</td>
+							<td class="color_gray_50 font_mono">>border-radius: 0.25rem;</td>
+						</tr>
+						<tr>
+							<td>radius_m</td>
+							<td class="color_gray_50 font_mono">>border-radius: 0.35rem;</td>
+						</tr>
+						<tr>
+							<td>radius_l</td>
+							<td class="color_gray_50 font_mono">>border-radius: 0.5rem;</td>
+						</tr>
+						<tr>
+							<td>radius_xl</td>
+							<td class="color_gray_50 font_mono">>border-radius: 0.75rem;</td>
+						</tr>
+						<tr>
+							<td>radius_2xl</td>
+							<td class="color_gray_50 font_mono">border-radius: 1rem;</td>
+						</tr>
+						<tr>
+							<td>radius_3xl</td>
+							<td class="color_gray_50 font_mono">border-radius: 1.25rem;</td>
+						</tr>
+						<tr>
+							<td>radius_4xl</td>
+							<td class="color_gray_50 font_mono">border-radius: 1.5rem;</td>
+						</tr>
+						<tr>
+							<td>radius_1</td>
+							<td class="color_gray_50 font_mono">border-radius: 1px;</td>
+						</tr>
+						<tr>
+							<td>radius_2</td>
+							<td class="color_gray_50 font_mono">border-radius: 2px;</td>
+						</tr>
+						<tr>
+							<td>radius_3</td>
+							<td class="color_gray_50 font_mono">border-radius: 3px;</td>
+						</tr>
+						<tr>
+							<td>radius_4</td>
+							<td class="color_gray_50 font_mono">border-radius: 4px;</td>
+						</tr>
+						<tr>
+							<td>radius_5</td>
+							<td class="color_gray_50 font_mono">border-radius: 5px;</td>
+						</tr>
+						<tr>
+							<td>radius_6</td>
+							<td class="color_gray_50 font_mono">border-radius: 6px;</td>
+						</tr>
+						<tr>
+							<td>radius_7</td>
+							<td class="color_gray_50 font_mono">border-radius: 7px;</td>
+						</tr>
+						<tr>
+							<td>radius_8</td>
+							<td class="color_gray_50 font_mono">border-radius: 8px;</td>
+						</tr>
+						<tr>
+							<td>radius_9</td>
+							<td class="color_gray_50 font_mono">border-radius: 9px;</td>
+						</tr>
+						<tr>
+							<td>radius_10</td>
+							<td class="color_gray_50 font_mono">border-radius: 10px;</td>
+						</tr>
+						<tr>
+							<td>radius_full</td>
+							<td class="color_gray_50 font_mono">border-radius: 9999px;</td>
+						</tr>
+						<tr>
+							<td>radius_none</td>
+							<td class="color_gray_50 font_mono">border-radius: none;</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3>Usage</h3>
+				<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">radius_10</span>"</span>>...<&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<p class="color_gray_100 font_semibold">Some example of element using different sizes of radius.</p>
+				<div class="border_red_30 border_solid border_10 radius_3 Border bg_red_10 inline_block p_20 font_semibold">.radius_3</div>
+				<div class="border_blue_30 border_solid border_10 radius_m Border bg_blue_10 inline_block p_20 font_semibold">.radius_m</div>
+				<div class="border_green_30 border_solid border_10 radius_10 Border bg_green_10 inline_block p_20 font_semibold">.radius_10</div>
+				<div class="border_purple_30 border_solid border_10 radius_full Border bg_purple_10 inline_block p_20 font_semibold">.radius_full</div>
+
+			<h2 id="BorderStyle">Border Style</h2>
+			<p class="color_gray_100 font_semibold">This property allows you to define the style of the lines used for the borders.</p>
+				<table>
+					<thead class="color_gray_110">
+						<tr>
+							<th>Class name</th>
+							<th>Properties</th>
+						</tr>
+					</thead>
+					<tbody class="color_purple_70 font_semibold">
+						<tr>
+							<td>border_solid</td>
+							<td class="color_gray_50 font_mono">border-style: solid;</td>
+						</tr>
+						<tr>
+							<td>border_dashed</td>
+							<td class="color_gray_50 font_mono">border-style: dashed;</td>
+						</tr>
+						<tr>
+							<td>border_dotted</td>
+							<td class="color_gray_50 font_mono">border-style: dotted;</td>
+						</tr>
+						<tr>
+							<td>border_double</td>
+							<td class="color_gray_50 font_mono">border-style: double;</td>
+						</tr>
+						<tr>
+							<td>border_none</td>
+							<td class="color_gray_50 font_mono">border-style: none;</td>
+						</tr>
+					</tbody>
+				</table>
+			<h3>Usage</h3>
+				<code class="bg_gray_120 radius_3px color_white font_semibold p_3 m_5 block w_max_content">
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">border_solid</span>"</span>>...<&#x2F;<span class="color_red_40">div</span>>
+						<br>
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">border_dashed</span>"</span>>...<&#x2F;<span class="color_red_40">div</span>>
+						<br>
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">border_dotted</span>"</span>>...<&#x2F;<span class="color_red_40">div</span>>
+						<br>
+					<<span class="color_red_40">div</span> <span class="color_green_40">class</span>=<span class="color_yellow_70">"<span class="bg_gray_100 radius_2">border_double</span>"</span>>...<&#x2F;<span class="color_red_40">div</span>>
+				</code>
+				<div>
+					<div class="border_solid border_10 border_orange_40 bg_orange_10 font_semibold p_20 inline_block">.border_solid</div>
+					<div class="border_dashed border_10 border_red_40 bg_red_10 font_semibold p_20 inline_block">.border_dashed</div>
+					<div class="border_dotted border_10 border_pink_40 bg_pink_10 font_semibold p_20 inline_block">.border_dotted</div>
+					<div class="border_double border_10 border_purple_40 bg_purple_10 font_semibold p_20 inline_block">.border_double</div>
+				</div>
+
+			<h2 id="BorderWidth">Border Width</h2>
+			<p class="color_gray_100 font_semibold">This property defines the width of the border of an element.</p>
+
+
+	</div>
+
+
+
+
+
+	<style type="text/css">
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+		}
+		#core {
+			position: absolute;
+			top: 0;
+			bottom: 0; right: 0;
+			left: 280px;
+			background-color: #f1f1f1;
+			overflow: auto;
+			scroll-behavior: smooth;
+		}
+
+		#aside {
+			position: absolute;
+			top: 70px;
+			bottom: 0; width: 280px;
+			left: 0;
+			overflow: auto;
+		}
+		#title {
+			position: absolute;
+			width: 280px;
+			left: 0;
+			top: 0;
+			height: 70px;
+			z-index: 10;
+		}
+		.inline_block {display: inline-block;}
+		.block {display: block}
+		.w_max_content {width: max-content;}
+		code {	
+			font-family: Monaco, Consolas, Hack, monospace;
+		}
+		th {
+			width: 50%;
+		}
+		tr:nth-child(even) {
+			background: #e6e6e6;
+		}
+		.h_15 {height: 25px;}
+		thead {
+			background: #e1e1e1;
+		}
+		.gradient_t_r {background-image: linear-gradient(to top right, #7af0d2, #cee69e);}
+		#test_gradient_text {-webkit-text-fill-color: transparent;}
+		.w_50\% {width: 50%;} .w_50\% {height: 50%;}
+	</style>
+</body>
+</html>
