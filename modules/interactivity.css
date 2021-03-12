@@ -1,0 +1,22 @@
+/*appearance*/
+
+.appearance_none {appearance: none;}
+
+/*pointer-events*/
+
+.pointer_event_none {pointer-events: none;}
+.pointer_event_auto {pointer-events: auto;}
+
+/*resize*/
+
+.resize {resize: both;}
+.resize_none {resize: none;}
+.resize_x {resize: horizontal;}
+.resize_y {resize: vertical;}
+
+/*user-select*/
+
+.select_none {user-select: none;}
+.select_auto {user-select: auto;}
+.select_text {user-select: text;}
+.select_all {user-select: all;}

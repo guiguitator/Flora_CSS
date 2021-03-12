@@ -1,0 +1,38 @@
+/*overflow*/
+
+.overflow_auto {overflow: auto;}
+.overflow_hidden {overflow: hidden;}
+.overflow_visible {overflow: visible;}
+.overflow_scroll {overflow: scroll;}
+
+/*overflow-x*/
+
+.overflow_x_auto {overflow-x: auto;}
+.overflow_x_hidden {overflow-x: hidden;}
+.overflow_x_visible {overflow-x: visible;}
+.overflow_x_scroll {overflow-x: scroll;}
+
+/*overflow-y*/
+
+.overflow_y_auto {overflow-y: auto;}
+.overflow_y_hidden {overflow-y: hidden;}
+.overflow_y_visible {overflow-y: visible;}
+.overflow_y_scroll {overflow-y: scroll;}
+
+/*overscroll-behavior*/
+
+.overscroll_auto {overscroll-behavior: auto;}
+.overscroll_contain {overscroll-behavior: contain;}
+.overscroll_none {overscroll-behavior: none;}
+
+/*overscroll-behavior-x*/
+
+.overscroll_x_auto {overscroll-x-behavior: auto;}
+.overscroll_x_contain {overscroll-x-behavior: contain;}
+.overscroll_x_none {overscroll-x-behavior: none;}
+
+/*overscroll-behavior-y*/
+
+.overscroll_y_auto {overscroll-behavior-y: auto;}
+.overscroll_y_contain {overscroll-behavior-y: contain;}
+.overscroll_y_none {overscroll-behavior-y: none;}

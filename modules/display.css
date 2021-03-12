@@ -1,0 +1,90 @@
+/*box-sizing*/
+
+.box_content {box-sizing: content-box;}
+.box_border {box-sizing: border-box;}
+
+/*display*/
+
+.block {display: block;}
+.inline_block {display: inline-block;}
+.inline {display: inline;}
+.flex {display: flex;}
+.inline_flex {display: inline-flex;}
+.table {display: table;}
+.inline_table {display: table;}
+.table_caption {display: table-caption;}
+.table_cell {display: table-cell;}
+.table_column {display: table-column;}
+.table_column_group {display: table-column-group;}
+.table_footer_group {display: table-footer-group;}
+.table_header_group {display: table-header-group;}
+.table_row {display: table-row;}
+.table_row_group {display: table-row-group;}
+.grid {display: grid;}
+.inline_grid {display: grid;}
+.contents {display: contents;}
+.hidden {display: none;}
+
+/*float*/
+
+.float_leaft {float: left;}
+.float_right {float: right;}
+.float_none {float: none;}
+
+/*clear*/
+
+.clear_left {clear: left;}
+.clear_right {clear: right;}
+.clear_both {clear: both;}
+.clear_none {clear: none;}
+
+/*object-fit*/
+
+.fit_contain {object-fit: contain;}
+.fit_cover {object-fit: cover;}
+.fit_fill {object-fit: fill;}
+.fit_scale_down {object-fit: scale-down;}
+.fit_none {object-fit: none;}
+
+/*object-position*/
+
+.object_bottom {object-position: bottom;}
+.object_center {object-position: center;}
+.object_left {object-position: left;}
+.object_left_bottom {object-position: left bottom;}
+.object_left_top {object-position: left top;}
+.object_right {object-position: right;}
+.object_right_bottom {object-position: right bottom;}
+.object_right_top {object-position: right top;}
+.object_top {object-position: top;}
+
+/*visibility*/
+
+.visible {visibility: visible;}
+.invisible {visibility: hidden;}
+
+/*z-index*/
+
+.z_auto {z-index: auto;}
+
+.z_0 {z-index: 0;}
+.z_5 {z-index: 5;}
+.z_10 {z-index: 10;}
+.z_15 {z-index: 15;}
+.z_20 {z-index: 20;}
+.z_25 {z-index: 25;}
+.z_30 {z-index: 30;}
+.z_35 {z-index: 35;}
+.z_40 {z-index: 40;}
+.z_45 {z-index: 45;}
+.z_50 {z-index: 50;}
+.z_55 {z-index: 55;}
+.z_60 {z-index: 60;}
+.z_65 {z-index: 65;}
+.z_70 {z-index: 70;}
+.z_75 {z-index: 75;}
+.z_80 {z-index: 80;}
+.z_85 {z-index: 85;}
+.z_90 {z-index: 90;}
+.z_95 {z-index: 95;}
+.z_100 {z-index: 100;}
