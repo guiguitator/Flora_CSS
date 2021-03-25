@@ -1,0 +1,11 @@
+/*transform-origin*/
+
+.origin_bottom {transform-origin: bottom;}
+.origin_bottom_right {transform-origin: bottom right;}
+.origin_bottom_left {transform-origin: bottom left;}
+.origin_center {transform-origin: center;}
+.origin_top {transform-origin: top;}
+.origin_top_right {transform-origin: top right;}
+.origin_top_left {transform-origin: top left;}
+.origin_left {transform-origin: left;}
+.origin_right {transform-origin: right;}
